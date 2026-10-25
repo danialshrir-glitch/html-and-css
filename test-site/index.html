@@ -10,18 +10,23 @@
         </head>
 
         <body>
-            <h1>Image and caption</h1>
-
-            <figure>
-                <img
-                    src="https://github.com/mdn/learning-area/blob/main/html/multimedia-and-embedding/tasks/images/firefox.png?raw=true"
-                    alt="An abstract flaming fox wrapping around a blue sphere"
-                    width="446" 
-                    height="460" 
-                />
-                <figcaption><cite>The 2019 Firefox logo</cite></figcaption>
-            </figure>
+            <video 
+                controls
+                width="400"
+                height="400"
+                autoplay
+                loop
+                muted
+                preload="auto"
+                poster="poster.png">
+                <source src="rabbit320.mp4" type="video/mp4" />
+                <source src="rabbit320.webm" type="video/webm" />
+                <track kind="subtitles" src="subtitles/first-subs.vtt" srclang="es" label="spanish" />
+                <p>
+                    Your browser doesn't support HTML video. Here is a
+                    <a href="rabbit320.webm">Link to the video</a> instead.
+                </p>
+            </video>
         </body>
-
     </html>
 </html>
