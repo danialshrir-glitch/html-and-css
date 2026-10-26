@@ -1,184 +1,20 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
+
     <head>
-        <meta charset="utf-8" />
-        <title>Forms challenge</title>
-        <link href="styles/style.css" rel="stylesheet" />
+        <meta charset="utf-8">
+        <title>HTML debugging examples</title>
     </head>
+
     <body>
-        <header>
-            <h1>We want your feedback!</h1>
-
-            <p>
-                We're very excited that you visited <a href="#">the little house in the woods</a>,
-                and we want to hear what you thought of it! Please fill in the below
-                sections. You don't need to provide your name or contact details, but
-                if you do, we'll enter you into a <a href="#">prize draw</a> where you'll have a chance
-                to win prizes.
-            </p>
-        </header>
-
-        <img 
-            src="https://mdn.github.io/shared-assets/images/examples/learn/woodland-strip.jpg"
-            alt="A background image of a forest with green and yellow trees" />
-
-        <form>
-            <div class="form-section">
-                <h2>Facilities</h2>
-                <fieldset>
-                    <legend>Was the porridge</legend>
-                    <div>
-                        <input
-                            type="radio"
-                            id="porriPrefer1"
-                            name="porri"
-                            value="hot"
-                            checked />
-                        <label for="porriPrefer1">Too hot?</label>
-
-                        <input
-                            type="radio"
-                            id="porriPrefer2"
-                            name="porri"
-                            value="cold" />
-                        <label for="porriPrefer2">Too cold?</label>
-
-                        <input
-                            type="radio"
-                            id="porriPrefer3"
-                            name="porri"
-                            value="right" />
-                        <label for="porriPrefer3">Just right?</label>
-                    </div>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Were the beds</legend>
-                    <div>
-                        <input 
-                            type="radio"
-                            id="bedsPrefer1"
-                            name="beds"
-                            value="hard"
-                            checked />
-                        <label for="bedsPrefer1">Too hard?</label>
-
-                        <input
-                            type="radio"
-                            id="bedsPrefer2"
-                            name="beds"
-                            id="soft" />
-                        <label for="bedsPrefer2">Too soft?</label>
-
-                        <input
-                            type="radio"
-                            id="bedsPrefer3"
-                            name="beds"
-                            value="right" />
-                        <label for="bedsPrefer3">Just right?</label>
-                    </div>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Describe the chairs (select all you agree with)</legend>
-                    <div>
-                        <input 
-                            type="checkbox"
-                            id="comfy"
-                            name="comfy" />
-                        <label for="comfy">Comfy</label>
-
-                        <input 
-                            type="checkbox"
-                            id="luxury"
-                            name="luxury" />
-                        <label for="luxury">Luxurious</label>
-
-                        <input
-                            type="checkbox"
-                            id="hitech"
-                            name="hitech" />
-                        <label for="hitech">Hi-tech</label>
-
-                        <input 
-                            type="checkbox"
-                            id="pretty"
-                            name="pretty" />
-                        <label for="pretty">Pretty</label>
-
-                        <input 
-                            type="checkbox"
-                            id="majestic"
-                            name="majestic" />
-                        <label for="majestic">Majestic</label>
-                    </div>
-                </fieldset>
-            </div>
-
-            <div class="form-section">
-                <h2>About your hosts</h2>
-                
-                <div class="separator">
-                    <label for="fave-bear">Who's your favorite bear?</label>
-                    <select name="fave-bear" id="fave-bear">
-                        <option value="papa">Papa bear</option>
-                        <option value="mama">Mama bear</option>
-                        <option value="jr">Junior</option>
-                        <option value="doz">Dozer</option>
-                    </select>
-                </div>
-                <div class="separator">
-                    <label for="fave-greet">Which greeting did you prefer?</label>
-                    <select name="fave-greet" id="fave-greet">
-                        <option value="wave">Wave</option>
-                        <option value="friendly">Friendly greeting</option>
-                        <option value="growl">Growl</option>
-                        <option value="claw-marks">Claw marks in the door</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="form-section">
-                <h2>Any other feedback?</h2>
-
-                <div class="textarea">
-                    <label for="comments">Give us your comments</label>
-                    <textarea id="comments" name="comments"></textarea>
-                </div>
-            </div>
-
-            <div class="form-section">
-                <h2>Your details</h2>
-
-                <div class="separator">
-                    <label for="name">Name</label>
-                    <input
-                        type="text"
-                        name="name"
-                        id="name"
-                        required />
-                </div>
-                
-                <div class="separator">
-                    <label for="email">Email</label>
-                    <input
-                        type="email"
-                        name="email"
-                        id="email" />
-                </div>
-
-                <div class="separator">
-                    <label for="phone">Phone</label>
-                    <input
-                        type="tel"
-                        name="phone"
-                        id="phone" />
-                </div>
-            </div>
-
-            <div class="form-section">
-                <button>Submit</button>
-            </div>
-        </form>
+        <h1>HTML debugging examples</h1>
+        <p>What causes errors in HTML?
+        <ul>
+            <li>Unclosed elements: If an element is <strong>not closed properly,then its effect can spread to areas you
+                    didn't intend
+            <li>Badly nested elements: Nesting elements properly is also very important for code behaving correctly.
+                <strong>strong <em>strong emphasized?</strong> what is this?</em>
+            <li>Unclosed attributes: Another common source of HTML problems. Let's look at an example: <a href="https://www.mozilla.org/>link to Mozilla homepage</a>
+        </ul>
     </body>
 </html>
