@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
@@ -18,20 +17,74 @@
             <colgroup>
                 <col span="2" />
                 <col class="column-border">
-                <col class="column-fixed-width" span="7" />
+                <col class="column-fixed-width" span="9" />
             </colgroup>
             <thead>
-                <td colspan="2">&nbsp;</td>
-                <th id="name">Name</th>
-                <th id="mass">Mass (10<sup>24</sup>kg)</th>
-                <th id="density">Density (kg/m<sup>3</sup>)</th>
-                <th id="gravity">Gravity (m/s<sup>2</sup>)</th>
-                <th id="length-of-day">length of day (hours)</th>
-                <th id="distance-from-sun">Distance from Sun (10<sup>6</sup>km)</th>
-                <th id="mean-temperature">Mean temperature (&deg;C)</th>
-                <th id="number-of-rooms">Number of moons</th>
-                <th id="notes">Notes</th>
+                <tr>
+                    <td colspan="2" scope="colgroup">&nbsp;</td>
+                    <th id="name" scope="col">Name</th>
+                    <th id="mass" scope="col">Mass (10<sup>24</sup>kg)</th>
+                    <th id="diameter" scpoe="col">Diameter (km)</th>
+                    <th id="density" scope="col">Density (kg/m<sup>3</sup>)</th>
+                    <th id="gravity" scope="col">Gravity (m/s<sup>2</sup>)</th>
+                    <th id="length-of-day" scope="col">length of day (hours)</th>
+                    <th id="distance-from-sun" scope="col">Distance from Sun (10<sup>6</sup>km)</th>
+                    <th id="mean-temperature" scope="col">Mean temperature (&deg;C)</th>
+                    <th id="number-of-rooms" scope="col">Number of moons</th>
+                    <th id="notes" scope="col">Notes</th>
+                </tr>
             </thead>
+            <tbody>
+                <tr>
+                    <th id="terrestrial-planets" rowspan="4" colspan="2" scope="rowgroup">Terrestrial planets</th>
+                    <th id="mercury" headers="terrestrial-planets name" scope="row">Mercury</th>
+                    <td headers="mercury terrestrial-planets mass">0.330</td>
+                    <td headers="mercury terrestrial-planets diameter">4&comma;879</td>
+                    <td headers="mercury terrestrial-planets density">5427</td>
+                    <td headers="mercury terrestrial-planets gravity">3.7</td>
+                    <td headers="mercury terrestrial-planets length-of-day">4222.2</td>
+                    <td headers="mercury terrestrial-planets distance-from-sun">57.9</td>
+                    <td headers="mercury terrestrial-planets mean-temperature">167</td>
+                    <td headers="mercury terrestrial-planets number-of-moons">0</td>
+                    <td headers="mercury terrestria-planets notes">Closest to the Sun</td>
+                </tr>
+                <tr>
+                    <th id="venus" headers="terrestrial-planets name" scope="row">Venus</th>
+                    <td headers="venus terrestrial-planets mass">4.87</td>
+                    <td headers="venus terrestrial-planets diameter">12&comma;104</td>
+                    <td headers="venus terrestrial-planets density">5243</td>
+                    <td headers="venus trrestrial-planets gravity">8.9</td>
+                    <td headers="venus terrestrial-planets length-of-day">2802.0</td>
+                    <td headers="venus terrestrial-planets distance-from-sun">108.2</td>
+                    <td headers="venus terrestrial-planets mean-temperature">464</td>
+                    <td headers="venus terrestrial-planets number-of-moons">0</td>
+                    <td headers="venus terrestrial-planets notes"></td>
+                </tr>
+                <tr>
+                    <th id="earth" headers="terrestrial-planets name" scope="row">Earth</th>
+                    <td headers="earth terrestrial-planets mass">5.97</td>
+                    <td headers="earth terrestrial-planets diameter">12&comma;756</td>
+                    <td headers="earth terrestrial-planets density">5514</td>
+                    <td headers="earth terrestrial-planets gravity">9.8</td>
+                    <td headers="earth terrestrial-planets length-of-day">24.0</td>
+                    <td headers="earth terrestrial-planets distance-from-sun">149.6</td>
+                    <td headers="earth terrestrial-planets mean-temperature">15</td>
+                    <td headers="earth terrestrial-planets number-of-moons">1</td>
+                    <td headers="earth terrestrial-planets notes">Our world</td>
+                </tr>
+                <tr>
+                    <th id="mars" headers="terrestrial-planets name" scope="row">Mars</th>
+                    <td headers="mars terrestrial-planets mass">0.642</td>
+                    <td headers="mars terrestrial-planets diameter">6&comma;792</td>
+                    <td headers="mars terrestrial-planets density">3933</td>
+                    <td headers="mars terrestrial-planets gravity">3.7</td>
+                    <td headers="mars terrestrial-planets length-of-day">24.7</td>
+                    <td headers="mars terrestrial-planets distance-from-sun">227.9</td>
+                    <td headers="mars terrestrial-planets mean-temperature">-65</td>
+                    <td headers="mars terrestrial-planets number-of-moons">2</td>
+                    <td headers="mars terrestrial-planets notes">The red planet</td>
+                </tr>
+            </tbody>
         </table>
     </body>
 </html>
