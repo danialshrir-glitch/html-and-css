@@ -5,11 +5,33 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
         <title>Planet data table</title>
-        <link href="style/style.css" rel="stylesheet" type="text/css" />
+        <link href="styles/style.css" rel="stylesheet" type="text/css" />
     </head>
-
     <body>
         <h1>Planet data table</h1>
-    </body>
 
+        <table>
+            <caption>
+                Data about the planets of our solar system (Planetary facts taken from 
+                <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's planetary Fact Sheet - Metric</a>).
+            </caption>
+            <colgroup>
+                <col span="2" />
+                <col class="column-border">
+                <col class="column-fixed-width" span="7" />
+            </colgroup>
+            <thead>
+                <td colspan="2">&nbsp;</td>
+                <th id="name">Name</th>
+                <th id="mass">Mass (10<sup>24</sup>kg)</th>
+                <th id="density">Density (kg/m<sup>3</sup>)</th>
+                <th id="gravity">Gravity (m/s<sup>2</sup>)</th>
+                <th id="length-of-day">length of day (hours)</th>
+                <th id="distance-from-sun">Distance from Sun (10<sup>6</sup>km)</th>
+                <th id="mean-temperature">Mean temperature (&deg;C)</th>
+                <th id="number-of-rooms">Number of moons</th>
+                <th id="notes">Notes</th>
+            </thead>
+        </table>
+    </body>
 </html>
