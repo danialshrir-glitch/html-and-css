@@ -18,146 +18,167 @@
             </p>
         </header>
 
-        <h2>
-            <img 
-                src="https://mdn.github.io/shared-assets/images/examples/learn/woodland-strip.jpg"
-                alt="A background image of a forest with green and yellow trees" />
-        </h2>
+        <img 
+            src="https://mdn.github.io/shared-assets/images/examples/learn/woodland-strip.jpg"
+            alt="A background image of a forest with green and yellow trees" />
 
         <form>
-            <h2>Facilities</h2>
-            <fieldset>
-                <legend>Was the porridge</legend>
-                <div>
-                    <input
-                        type="radio"
-                        id="porriPrefer1"
-                        name="porri"
-                        value="hot"
-                        checked />
-                    <label for="porriPrefer1">Too hot?</label>
+            <div class="form-section">
+                <h2>Facilities</h2>
+                <fieldset>
+                    <legend>Was the porridge</legend>
+                    <div>
+                        <input
+                            type="radio"
+                            id="porriPrefer1"
+                            name="porri"
+                            value="hot"
+                            checked />
+                        <label for="porriPrefer1">Too hot?</label>
 
-                    <input
-                        type="radio"
-                        id="porriPrefer2"
-                        name="porri"
-                        value="cold" />
-                    <label for="porriPrefer2">Too cold?</label>
+                        <input
+                            type="radio"
+                            id="porriPrefer2"
+                            name="porri"
+                            value="cold" />
+                        <label for="porriPrefer2">Too cold?</label>
 
-                    <input
-                        type="radio"
-                        id="porriPrefer3"
-                        name="porri"
-                        value="right" />
-                    <label for="porriPrefer3">Just right?</label>
+                        <input
+                            type="radio"
+                            id="porriPrefer3"
+                            name="porri"
+                            value="right" />
+                        <label for="porriPrefer3">Just right?</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Were the beds</legend>
+                    <div>
+                        <input 
+                            type="radio"
+                            id="bedsPrefer1"
+                            name="beds"
+                            value="hard"
+                            checked />
+                        <label for="bedsPrefer1">Too hard?</label>
+
+                        <input
+                            type="radio"
+                            id="bedsPrefer2"
+                            name="beds"
+                            id="soft" />
+                        <label for="bedsPrefer2">Too soft?</label>
+
+                        <input
+                            type="radio"
+                            id="bedsPrefer3"
+                            name="beds"
+                            value="right" />
+                        <label for="bedsPrefer3">Just right?</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Describe the chairs (select all you agree with)</legend>
+                    <div>
+                        <input 
+                            type="checkbox"
+                            id="comfy"
+                            name="comfy" />
+                        <label for="comfy">Comfy</label>
+
+                        <input 
+                            type="checkbox"
+                            id="luxury"
+                            name="luxury" />
+                        <label for="luxury">Luxurious</label>
+
+                        <input
+                            type="checkbox"
+                            id="hitech"
+                            name="hitech" />
+                        <label for="hitech">Hi-tech</label>
+
+                        <input 
+                            type="checkbox"
+                            id="pretty"
+                            name="pretty" />
+                        <label for="pretty">Pretty</label>
+
+                        <input 
+                            type="checkbox"
+                            id="majestic"
+                            name="majestic" />
+                        <label for="majestic">Majestic</label>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="form-section">
+                <h2>About your hosts</h2>
+                
+                <div class="separator">
+                    <label for="fave-bear">Who's your favorite bear?</label>
+                    <select name="fave-bear" id="fave-bear">
+                        <option value="papa">Papa bear</option>
+                        <option value="mama">Mama bear</option>
+                        <option value="jr">Junior</option>
+                        <option value="doz">Dozer</option>
+                    </select>
                 </div>
-            </fieldset>
-
-            <fieldset>
-                <legend>Were the beds</legend>
-                <div>
-                    <input 
-                        type="radio"
-                        id="bedsPrefer1"
-                        name="beds"
-                        value="hard"
-                        checked />
-                    <label for="bedsPrefer1">Too hard?</label>
-
-                    <input
-                        type="radio"
-                        id="bedsPrefer2"
-                        name="beds"
-                        id="soft" />
-                    <label for="bedsPrefer2">Too soft?</label>
-
-                    <input
-                        type="radio"
-                        id="bedsPrefer3"
-                        name="beds"
-                        value="right" />
-                    <label for="bedsPrefer3">Just right?</label>
+                <div class="separator">
+                    <label for="fave-greet">Which greeting did you prefer?</label>
+                    <select name="fave-greet" id="fave-greet">
+                        <option value="wave">Wave</option>
+                        <option value="friendly">Friendly greeting</option>
+                        <option value="growl">Growl</option>
+                        <option value="claw-marks">Claw marks in the door</option>
+                    </select>
                 </div>
-            </fieldset>
+            </div>
 
-            <fieldset>
-                <legend>Describe the chairs (select all you agree with)</legend>
-                <div>
-                    <input 
-                        type="checkbox"
-                        id="comfy"
-                        name="comfy" />
-                    <label for="comfy">Comfy</label>
+            <div class="form-section">
+                <h2>Any other feedback?</h2>
 
-                    <input 
-                        type="checkbox"
-                        id="luxury"
-                        name="luxury" />
-                    <label for="luxury">Luxurious</label>
-
-                    <input
-                        type="checkbox"
-                        id="hitech"
-                        name="hitech" />
-                    <label for="hitech">Hi-tech</label>
-
-                    <input 
-                        type="checkbox"
-                        id="pretty"
-                        name="pretty" />
-                    <label for="pretty">Pretty</label>
-
-                    <input 
-                        type="checkbox"
-                        id="majestic"
-                        name="majestic" />
-                    <label for="majestic">Majestic</label>
+                <div class="textarea">
+                    <label for="comments">Give us your comments</label>
+                    <textarea id="comments" name="comments"></textarea>
                 </div>
-            </fieldset>
+            </div>
+
+            <div class="form-section">
+                <h2>Your details</h2>
+
+                <div class="separator">
+                    <label for="name">Name</label>
+                    <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        required />
+                </div>
+                
+                <div class="separator">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email" />
+                </div>
+
+                <div class="separator">
+                    <label for="phone">Phone</label>
+                    <input
+                        type="tel"
+                        name="phone"
+                        id="phone" />
+                </div>
+            </div>
+
+            <div class="form-section">
+                <button>Submit</button>
+            </div>
         </form>
-
-        Describe the chairs (select all you agree with)
-        Comfy
-        Luxurious
-        Hi-tech
-        Pretty
-        Majestic
-
-        --
-
-        About your hosts
-
-        Who's your favorite bear?
-        Papa bear
-        Mama bear
-        Junior
-        Dozer
-
-        Which greeting did you prefer?
-        Wave
-        Friendly greeting
-        Growl
-        Claw marks in the door
-
-        --
-
-        Any other feedback?
-
-        Give us your comments
-
-        --
-
-        Your details
-
-        Name
-        Email
-        Phone
-
-        --
-
-        Submit
-
-        --
     </body>
-
 </html>
