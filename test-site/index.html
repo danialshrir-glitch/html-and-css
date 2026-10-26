@@ -7,19 +7,73 @@
     </head>
     <body>
         <form>
-            <ul>
-                <li>
-                    <label for="uid">User ID</label>
-                    <input type="text" name="uid" id="uid" />
-                </li>
-                <li>
-                    <label for="pwd">Password</label>
-                    <input type="password" name="pwd" id="pwd" />
-                </li>
-                <li>
-                    <button>Log in</button>
-                </li>
-            </ul>
+            <fieldset>
+                <legend>Who is your favorite pony?</legend>
+                <div>
+                    <ul>
+                        <li>
+                            <label for="pinkie">Pinkie pie</label>
+                            <input
+                                type="radio"
+                                id="ponyType1"
+                                name="pony"
+                                value="pinkie"
+                                checked />
+                        </li>
+                        <li>
+                            <label for="rainbow">Rainbow Dash</label>
+                            <input
+                                type="radio"
+                                id="ponyType2"
+                                name="pony"
+                                value="rainbow" />
+                        </li>
+                        <li>
+                            <label for="twilight">Twilight Sparkle</label>
+                            <input
+                                type="radio"
+                                id="ponyType3"
+                                name="pony"
+                                value="twilight" />
+                        </li>
+                    </ul>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Hotdog preferences</legend>
+                <div>
+                    <ul>
+                        <li>
+                            <label for="vegan">Vegan</label>
+                            <input
+                                type="checkbox"
+                                id="vegan"
+                                name="vegan" />
+                        </li>
+                        <li>
+                            <label for="onions">Onions</label>
+                            <input
+                                type="checkbox"
+                                id="onions"
+                                name="onions" />
+                        </li>
+                        <li>
+                            <label for="mustard">Mustard</label>
+                            <input
+                                type="checkbox"
+                                id="mustard"
+                                name="mustard" />
+                        </li>
+                        <li>
+                            <label for="ketchup">Ketchup</label>
+                            <input
+                                type="checkbox"
+                                id="ketchup"
+                                name="ketchup" />
+                        </li>
+                    </ul>
+                </div>
+            </fieldset>
         </form>
     </body>
 </html>
