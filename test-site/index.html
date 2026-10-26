@@ -6,38 +6,24 @@
         <title>Second form</title>
     </head>
     <body>
-        <form>
-            <h2>Edit your preferences</h2>
-            <ul>
-                <li>
-                    <label for="email">Email</label>
-                    <input
-                        type="email"
-                        name="email"
-                        id="email" />
-                </li>
-                <li>
-                    <label for="website">Website</label>
-                    <input
-                        type="url"
-                        name="website"
-                        id="website" />
-                </li>
-                <li>
-                    <label for="phone">Phone number</label>
-                    <input
-                        type="tel"
-                        name="phone"
-                        id="phone" />
-                </li>
-                <li>
-                    <label for="fave-color">Favorite color</label>
-                    <input
-                        type="color"
-                        name="fave-color"
-                        id="fave-color" />
-                </li>
-            </ul>
-        </form>
+        <ul>
+            <li>
+                <label for="food">Pick your favorite food:</label>
+                <select name="food" id="food">
+                    <optgroup label="Mains">
+                        <option value="salad">Salad</option>
+                        <option value="curry">Curry</option>
+                        <option value="pizza">Pizza</option>
+                        <option value="fajitas">Fajitas</option>
+                    </optgroup>
+                    <optgroup label="Snacks">
+                        <option value="biscuits">Biscuits</option>
+                        <option value="crisps">Crisps</option>
+                        <option value="fruit">Fruit</option>
+                        <option value="bredsticks">Breadsticks</option>
+                    </optgroup>
+                </select>
+            </li>
+        </ul>
     </body>
 </html>
