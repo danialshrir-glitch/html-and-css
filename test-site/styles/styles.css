@@ -2,19 +2,19 @@ body {
     font-family: sans-serif;
 }
 
-li[class] {
+li[class^="a"] {
     font-size: 120%;
 }
 
-li[class="a"] {
+li[class$="a"] {
     background-color: yellow;
 }
 
-li[class~="a"] {
+li[class*="a"] {
     color: red;
 }
 
-li[class="ab"] {
-    background-color: purple;
-    color: white;
+li[class$="b"],
+li[class$="c"] {
+    border: 2px solid black;
 }
