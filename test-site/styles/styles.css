@@ -2,6 +2,19 @@ body {
     font-family: sans-serif;
 }
 
-* {
-    margin: 0;
+li[class] {
+    font-size: 120%;
+}
+
+li[class="a"] {
+    background-color: yellow;
+}
+
+li[class~="a"] {
+    color: red;
+}
+
+li[class="ab"] {
+    background-color: purple;
+    color: white;
 }
