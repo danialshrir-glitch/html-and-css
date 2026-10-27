@@ -1,11 +1,7 @@
-/* Handle basic element styling */
-/* ---------------------------- */
+html {
+    background-color: white;
+}
+
 body {
-    font:
-        1em/150% "Halvetica",
-        "Arial",
-        sans-serif;
-    padding: 1em;
-    margin: 0 auto;
-    max-width: 33em;
+    font: 1.2em / 1.5 system-ui;
 }
