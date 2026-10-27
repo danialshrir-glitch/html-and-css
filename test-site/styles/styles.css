@@ -6,3 +6,8 @@ p,
 li {
     color: green;
 }
+
+.special {
+    color: orange;
+    font-weight: bold;
+}
