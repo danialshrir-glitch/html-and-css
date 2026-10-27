@@ -13,3 +13,11 @@ strong {
 em {
     color: rebeccapurple;
 }
+
+h1.highlight {
+    background-color: pink;
+}
+
+p.highlight {
+    background-color: yellow;
+}
