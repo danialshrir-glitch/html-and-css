@@ -1,3 +1,11 @@
+body {
+    font-family: sans-serif;
+}
+
+.box {
+    
+}
+
 .background-image {
-    background-image: url(C:\Users\Administrator\Documents\web-projects\html-and-css\login-page-concept\images\forest.jpg);
+    background-image: url("../images/forest.jpg");
 }
