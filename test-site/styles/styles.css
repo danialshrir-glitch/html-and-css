@@ -2,38 +2,10 @@ body {
     font-family: sans-serif;
 }
 
-span {
+#one {
     background-color: yellow;
 }
 
-strong {
+h1#heading {
     color: rebeccapurple;
-}
-
-em {
-    color: rebeccapurple;
-}
-
-h1.highlight {
-    background-color: pink;
-}
-
-p.highlight {
-    background-color: yellow;
-}
-
-.notebox {
-    border: 4px solid #666666;
-    padding: 0.5em;
-    margin: 0.5em;
-}
-
-.notebox.warning {
-    border-color: orange;
-    font-weight: bold;
-}
-
-.notebox.danger {
-    border-color: red;
-    font-weight: bold;
 }
