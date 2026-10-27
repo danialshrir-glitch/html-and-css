@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
 }
 
-h1 + p {
+h1 ~ p {
     font-weight: bold;
     background-color: #333333;
     color: white;
