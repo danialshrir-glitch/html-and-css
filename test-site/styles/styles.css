@@ -1,7 +1,11 @@
-li em {
-    color: rebeccapurple;
+a:link {
+    color: pink;
 }
 
-h1 + p {
-    font-size: 200%;
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
 }
