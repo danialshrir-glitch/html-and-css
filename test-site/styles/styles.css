@@ -1,4 +1,7 @@
- article p:first-child {
-    font-size: 120%;
-    font-weight: bold;
+article p:first-child:hover {
+    color: blue;
+}
+
+article p:last-child {
+    background-color: orange;
 }
