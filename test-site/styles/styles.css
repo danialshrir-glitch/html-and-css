@@ -1,20 +1,4 @@
-body {
-    font-family: sans-serif;
-}
-
-li[class^="a"] {
+ article p:first-child {
     font-size: 120%;
-}
-
-li[class$="a"] {
-    background-color: yellow;
-}
-
-li[class*="a"] {
-    color: red;
-}
-
-li[class$="b"],
-li[class$="c"] {
-    border: 2px solid black;
+    font-weight: bold;
 }
