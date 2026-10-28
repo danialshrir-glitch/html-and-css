@@ -1,21 +1,8 @@
-body {
-    font-family: sans-serif;
-    font-size: 1.3em;
-    color: green;
+blockquote {
+    background-color: orange;
+    border: 2px solid blue;
 }
 
-.my-class-1 a {
-    all: inherit;
-}
-
-.my-class-2 a {
+.fix-this {
     all: initial;
-}
-
-.my-class-3 a {
-    all: unset;
-}
-
-a {
-    color: hotpink;
 }
