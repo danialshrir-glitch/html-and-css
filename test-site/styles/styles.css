@@ -1,16 +1,19 @@
-h1 {
-    color: blue;
-}
-
-h2 {
-    background-color: blue;
-    color: white;
-}
-
 body {
     font: 1.2em / 1.5 sans-serif;
 }
 
-span {
-    font-size: 200%;
+#special {
+    background-color: yellow;
+}
+
+.alert {
+    border: 2px solid black;
+}
+
+.alert.stop {
+    background-color: red;
+}
+
+.alert.go {
+    background-color: green;
 }
