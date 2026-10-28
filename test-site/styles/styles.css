@@ -2,18 +2,42 @@ body {
     font: 1.2em / 1.5 sans-serif;
 }
 
-#special {
-    background-color: yellow;
+* {
+    box-sizing: border-box;
 }
 
-.alert {
-    border: 2px solid black;
+table {
+    border-collapse: collapse;
+    width: 300px;
 }
 
-.alert.stop {
-    background-color: red;
+td,
+th {
+    padding: 0.2em;
+    text-align: left;
 }
 
-.alert.go {
-    background-color: green;
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container p:first-child {
+    font-size: 150%;
+}
+
+.container p:first-child::first-line {
+    color: red;
+}
+
+tr:nth-child(even) {
+    background-color: #333333;
+    color: white;
 }
