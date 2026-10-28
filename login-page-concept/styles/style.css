@@ -2,10 +2,22 @@ body {
     font-family: sans-serif;
 }
 
-.box {
-    
-}
-
 .background-image {
     background-image: url("../images/forest.jpg");
+}
+
+.box {
+    border: 2px solid red;
+    border-radius: 50px 50px;
+    color: white;
+    text-align: center;
+    background-color: white;
+    min-height: 100vh;
+    width: 50%;
+}
+
+.header-text {
+    background-image: url("../images/forest.jpg");
+    background-size: contain;
+    padding: 20%;
 }
