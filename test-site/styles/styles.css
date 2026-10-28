@@ -1,7 +1,10 @@
-body {
-    color: blue;
+.main {
+    color: rebeccapurple;
+    border: 2px solid lightgray;
+    padding: 1em;
 }
 
-span {
+.special {
     color: black;
+    font-weight: bold;
 }
