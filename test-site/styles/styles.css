@@ -1,10 +1,16 @@
-body {
-    font-family: sans-serif;
+h1 {
+    color: blue;
 }
 
-h1 ~ p {
-    font-weight: bold;
-    background-color: #333333;
+h2 {
+    background-color: blue;
     color: white;
-    padding: 0.5em;
+}
+
+body {
+    font: 1.2em / 1.5 sans-serif;
+}
+
+span {
+    font-size: 200%;
 }
