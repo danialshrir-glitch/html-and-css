@@ -1,12 +1,18 @@
-.box {
-    border: 5px solid  rebeccapurple;
-    background-color: lightgray;
-    padding: 40px;
+.container {
+    border: 5px solid blue;
     margin: 40px;
-    width: 300px;
-    height: 150px;
 }
 
-.alternate {
-    box-sizing: border-box;
+p {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.one {
+    margin-bottom: 40px;
+}
+
+.two {
+    margin-top: -10px;
 }
