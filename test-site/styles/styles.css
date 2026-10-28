@@ -1,22 +1,17 @@
-ul {
+body {
     font-family: sans-serif;
-    display: flex;
-    list-style: none;
-    border: 2px solid black;
 }
 
-li {
-    margin: 5px;
+.box {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 150px;
 }
 
-.links-list a {
-    background-color: rgb(179, 57, 51);
-    color: white;
-    text-decoration: none;
-    margin: 5px;
-    padding: 20px;
-}
-
-.links-list a:hover {
-    background-color: rgb(77, 8, 5);
+.alternate {
+    box-sizing: border-box;
+    width: 390px;
 }
