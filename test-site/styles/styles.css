@@ -1,8 +1,13 @@
-blockquote {
-    background-color: orange;
-    border: 2px solid blue;
+h2 {
+    font-size: 2em;
+    color: black;
+    font-family: "Georgia", serif;
 }
 
-.fix-this {
-    all: initial;
+.small {
+    font-size: 1em;
+}
+
+.bright {
+    color: rebeccapurple;
 }
