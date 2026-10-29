@@ -1,21 +1,89 @@
-@layer yellow, green, purple;
-
-@layer yellow {
-    #outer  div ul .nav a {
-        padding: 5px;
-        display: inline-block;
-        margin-bottom: 10px;
-    }
+* {
+    box-sizing: border-box;
 }
 
-@layer purple {
-    div div li a {
-        color: rebeccapurple;
-    }
+body {
+    font: 1.2em / 1.5 system-ui;
+    width: clamp(180px, 70%, 1080px);
+    margin: 0 auto;
 }
 
-@layer green {
-    a {
-        color: lightgreen;
-    }
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h2 + p::first-line {
+    font-weight: bold;
+}
+
+a {
+    color: red;
+}
+
+section:not(.highlight) h2 + p::first-line {
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+li {
+    flex: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: yellowgreen;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    display: block;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.highlight {
+    margin-top: 0;
+    background-color: darkslategray;
+    color: cornsilk;
+}
+
+.highlight a {
+    color: purple;
+}
+
+.highlight a {
+    color: yellow;
+}
+
+#introduction,
+#summary,
+footer {
+    padding: 20px;
+}
+
+footer.highlight {
+    display: inherit;
+    margin-top: 20px;
+    background-color: goldenrod;
+    text-shadow: 1px 1px 1px black;
 }
