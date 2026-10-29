@@ -4,6 +4,7 @@ body {
 
 .background-image {
     background-image: url("../images/forest.jpg");
+    background-repeat: no-repeat;
 }
 
 .box {
@@ -18,6 +19,7 @@ body {
 
 .header-text {
     background-image: url("../images/forest.jpg");
+    background-repeat: no-repeat;
     background-size: contain;
     padding: 20%;
 }
