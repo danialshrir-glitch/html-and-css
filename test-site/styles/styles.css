@@ -1,17 +1,17 @@
 .box {
-    border-radius: 20px;
     padding: 10px;
-    margin-bottom: 0.5em 0;
+    margin: 0.5em;
+    border-radius: 0.5em;
 }
 
-.antiquewhite {
-    background-color: antiquewhite;
+.one {
+    background-color: #02798b;
 }
 
-.blueviolet {
-    background-color: blueviolet;
+.two {
+    background-color: #c55da1;
 }
 
-.greenyellow {
-    background-color: greenyellow;
+.three {
+    background-color: #128a7d;
 }
