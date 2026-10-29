@@ -1,12 +1,30 @@
-.wrapper {
-    width: 400px;
+body {
+    font: 1.2em / 1.5 sans-serif;
 }
 
-.box {
-    padding: 1em;
-    margin: 0.5em 0;
-    border: 5px solid rebeccapurple;
-    border-radius: 0.5em;
-    background-color: lightblue;
-    width: calc(20% + 100px);
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.hex {
+    background-color: #86defa;
+}
+
+.rgb {
+    background-color: rgb(134 222 250);
+}
+
+.hsl {
+    background-color: hsl(196 92% 75%);
+}
+
+.transparency {
+    background-color: rgb(134 222 250 / 60%);
 }
