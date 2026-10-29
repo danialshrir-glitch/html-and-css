@@ -1,9 +1,18 @@
 body {
     font: 1.2em sans-serif;
-    width: 50%;
+}
+
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.wrapper > * {
+    margin: 20px;
 }
 
 .box {
     border: 5px solid darkblue;
-    width: 50%;
+    min-height: 100px;
+    width: 200px;
 }
