@@ -1,22 +1,11 @@
-.box {
-    border: 5px solid darkblue;
-    background-color: lightblue;
-    padding: 10px;
-    margin-bottom: 1em;
+html {
+    font-size: 16px;
 }
 
-.wrapper {
-    font-size: 1em;
+.ems li {
+    font-size: 1.3em;
 }
 
-.px {
-    width: 200px;
-}
-
-.vw {
-    width: 10vw;
-}
-
-.em {
-    width: 10em;
+.rems li {
+    font-size: 1.3rem;;
 }
