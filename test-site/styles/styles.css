@@ -1,15 +1,17 @@
-.wrapper {
-    background-image: url("https://mdn.github.io/shared-assets/images/examples/balloons.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    padding: 20px;
+.box {
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 0.5em 0;
 }
 
-.box {
-    margin: 40px auto;
-    background-color: lightblue;
-    border: 5px solid darkblue;
-    padding: 30px;
-    margin-bottom: 1em;
-    opacity: 0.6;
+.antiquewhite {
+    background-color: antiquewhite;
+}
+
+.blueviolet {
+    background-color: blueviolet;
+}
+
+.greenyellow {
+    background-color: greenyellow;
 }
