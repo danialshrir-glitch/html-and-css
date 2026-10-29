@@ -27,3 +27,17 @@ body {
     background-size: cover;
     padding: 20%;
 }
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: darkslateblue;
+    border: 5px solid darkslateblue;
+    border-radius: 2em;
+    padding: 10px;
+    color: white;
+}
