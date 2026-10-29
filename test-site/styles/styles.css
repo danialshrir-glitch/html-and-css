@@ -1,19 +1,10 @@
-body {
-    font: 1.2em/ 1.5 sans-serif;
+.box {
+    border: 5px solid black;
+    height: 350px;
 }
 
-h1 {
-    font-size: 50px;
-}
-
-h2 {
-    font-size: 2em;
-}
-
-p {
-    font-size: 16px;
-}
-
-h1 + p {
-    font-size: 120%;
+.box {
+    background-image: url("https://mdn.github.io/shared-assets/images/examples/purple-star.png");
+    background-repeat: no-repeat;
+    background-position: center 20%;
 }
