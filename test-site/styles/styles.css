@@ -13,6 +13,17 @@ body {
 
 .box {
     border: 5px solid darkblue;
-    min-height: 100px;
     width: 200px;
+}
+
+.mini-box {
+    width: 30px;
+}
+
+.width {
+    width: 100%;
+}
+
+.max {
+    max-width: 100%;
 }
