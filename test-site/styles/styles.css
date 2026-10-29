@@ -1,3 +1,15 @@
-li {
-    font-size: 80%;
+.wrapper {
+    background-image: url("https://mdn.github.io/shared-assets/images/examples/balloons.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding: 20px;
+}
+
+.box {
+    margin: 40px auto;
+    background-color: lightblue;
+    border: 5px solid darkblue;
+    padding: 30px;
+    margin-bottom: 1em;
+    opacity: 0.6;
 }
