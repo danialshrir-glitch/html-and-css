@@ -8,6 +8,7 @@ body {
 }
 
 .box {
+    box-sizing: border-box;
     box-shadow: 10px 10px 5px 1px black;
     border: 2px solid red;
     border-radius: 50px 50px;
@@ -28,11 +29,6 @@ body {
     padding: 20%;
 }
 
-input[type="text"]::placeholder,
-input[type="password"]::placeholder {
-    color: white;
-}
-
 input[type="text"],
 input[type="password"] {
     background-color: darkslateblue;
@@ -40,4 +36,54 @@ input[type="password"] {
     border-radius: 2em;
     padding: 10px;
     color: white;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: white;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+    background-color: white;
+    color: black;
+}
+
+input[type="text"]:hover::placeholder,
+input[type="password"]:hover::placeholder {
+    color: black;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: white;
+    color: black;
+}
+
+input[type="text"]:focus::placeholder,
+input[type="password"]:focus::placeholder {
+    color: black;
+}
+
+.forgot-password-button a:link {
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+.forgot-password-button a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.forgot-password-button a:visited {
+    opacity: 0.5;
+}
+
+.login-button a {
+    border: 2px solid darkslateblue;
+    background-color: darkslateblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 2em;
+    padding: 10px;
 }
