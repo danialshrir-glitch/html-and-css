@@ -35,6 +35,7 @@ img {
     width: auto;
     height: auto;
     display: flexbox;
+    margin-bottom: 50px;
 }
 
 .main-header {
@@ -177,4 +178,35 @@ nav li a:hover {
 
 .sell-details p::first-line {
     font-size: 2px;
+}
+
+.selected-offers {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 100px;
+    color: white;
+}
+
+.offer-1-img {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../images/burger-on-table.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 100px;
+    position: relative;
+    text-align: left;
+    object-fit: fill;
+}
+
+.offer-1 {
+
+    display: flexbox;
+    position: absolute;
+    top: 0;
+    left: 10px;
 }
