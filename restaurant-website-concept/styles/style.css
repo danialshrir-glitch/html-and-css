@@ -29,11 +29,13 @@ img {
     background-image: url("../images/food-wallpaper.jpg");
     background-size: cover;
     padding: 20px;
+    display: flexbox;
 }
 
 .main-header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .page-logo {
@@ -95,6 +97,7 @@ nav li a:hover {
     border: 1px dashed #241200;
     padding: 10px;
     display: inline;
+    align-items: flex-start;
 }
 
 .burger-week {
@@ -102,11 +105,23 @@ nav li a:hover {
     font-size: large;
     letter-spacing: 0.1rem;
     color: #241200;
-    text-shadow: 2px 2px white;
+    text-shadow: 3px 3px white;
+    margin-bottom: 100px;
+    align-items: flex-start;
 }
 
 .burger-week::first-line {
     font-size: 2em;
+}
+
+.sell-image {
+    background-image: url("../images/burger-fried-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flexbox;
+    align-items: flex-end;
+    float: right;
+    margin-bottom: 40px;
 }
 
 .sell-and-image {
@@ -122,10 +137,11 @@ nav li a:hover {
     height: 50px;
     border-radius: 50%;
     margin: 10px;
+    margin-bottom: 50px;
 }
 
 .sell-details {
-    display: flex;
+    display: flexbox;
     border: 1px dashed white;
     border-radius: 100%;
     padding: 20px;
