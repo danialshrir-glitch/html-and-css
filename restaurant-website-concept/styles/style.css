@@ -25,6 +25,17 @@ img {
     vertical-align: middle;
 }
 
+.header-box {
+    background-image: url("../images/food-wallpaper.jpg");
+    background-size: cover;
+    padding: 20px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .page-logo {
     display: flex;
     align-items: flex-start;
@@ -33,10 +44,6 @@ img {
     color: #241200;
 }
 
-.main-header {
-    display: flex;
-    justify-content: space-between;
-}
 
 .delivery-phone {
     display: flex;
@@ -68,6 +75,7 @@ nav li {
     white-space: nowrap;
     align-items: flex-end;
     margin-right: 20px;
+    letter-spacing: 0.1rem;
 }
 
 nav li a:link {
