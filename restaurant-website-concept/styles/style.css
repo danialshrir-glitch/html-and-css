@@ -279,3 +279,20 @@ nav li a:hover {
 .offer-3::first-line {
     font-size: medium;
 }
+
+.selected-dishes {
+    margin-bottom: 40px;
+}
+
+.always-tasty {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #241200;
+    background-color: rgb(255, 196, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    margin-left: 45%;
+    font-size: large;
+}
