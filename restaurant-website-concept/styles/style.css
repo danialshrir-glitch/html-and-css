@@ -357,3 +357,71 @@ nav li a:hover {
 .dish-3 h3 {
     font-size: 1.5em;
 }
+
+.upcoming-events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    box-shadow: 10px 5px 5px gray;
+    margin-bottom: 30px;
+}
+
+.all-upcoming-events h2 {
+    font-family: "Alfa Slab One";
+    letter-spacing: 0.1rem;
+    font-size: 30px;
+}
+
+.all-upcoming-events h2::first-line {
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+}
+
+.all-upcoming-events ul {
+    anchor-name: --my-carousel;
+    display: flex;
+    gap: 4vw;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-marker-group: after;
+    margin-bottom: 10px;
+}
+
+.all-upcoming-events li {
+    list-style-type: none;
+    padding: 20px;
+    scroll-snap-align: start;
+    flex: 0 0 100%;
+}
+
+.all-upcoming-events ul::scroll-marker-group {
+    position: absolute;
+    top: calc(anchor(bottom) - 10px);
+    left: 5%;
+    display: flex;
+    justify-content: right;
+    position-anchor: --my-carousel;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.all-upcoming-events li::scroll-marker {
+    content: attr(data-accName);
+    width: 10px;
+    height: 10px;
+    background-color: darkslategray;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    text-indent: 16px;
+}
+
+.all-upcoming-events li::scroll-marker:target-current {
+    background-color: yellow;
+}
+
+.event-picture {
+    border-radius: 10px;
+}
