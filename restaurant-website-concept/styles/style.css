@@ -189,6 +189,12 @@ nav li a:hover {
     color: white;
 }
 
+.offers-left {
+    display: flexbox;
+    justify-content: space-between;
+    float: left;
+}
+
 .offer-1-img {
     display: flex;
     justify-content: space-between;
@@ -197,16 +203,79 @@ nav li a:hover {
     background-position: center;
     background-size: cover;
     border-radius: 10px;
-    padding: 100px;
+    padding: 150px;
     position: relative;
-    text-align: left;
     object-fit: fill;
 }
 
 .offer-1 {
-
     display: flexbox;
     position: absolute;
     top: 0;
     left: 10px;
+    font-size: larger;
+}
+
+.offer-1::first-line {
+    font-size: medium;
+}
+
+.offers-right {
+    display: block;
+    justify-content: space-between;
+    position: relative;
+    float: right;
+}
+
+.offer-2-img {
+    display: flex;
+    background-image: url("../images/two-burgers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    object-fit: fill;
+    position: relative;
+    height: 30%;
+    margin-bottom: 40px;
+}
+
+.offer-2 {
+    display: flexbox;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: larger;
+}
+
+.offer-2::first-line {
+    font-size: medium;
+}
+
+.offer-3-img {
+    display: flex;
+    background-image: url("../images/bugrer-ingredients-table.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    object-fit: fill;
+    position: relative;
+    height: 30%;
+}
+
+.offer-3 {
+    display: flexbox;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: larger;
+}
+
+.offer-3::first-line {
+    font-size: medium;
 }
