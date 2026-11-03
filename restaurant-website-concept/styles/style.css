@@ -425,3 +425,31 @@ nav li a:hover {
 .event-picture {
     border-radius: 10px;
 }
+
+.book-your-table {
+    background-image: url("../images/background-form.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.book-your-table h2 {
+    font-family: "Alfa Slab One";
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.book-your-table h2::first-line {
+    font-family: "Roboto Condensed";
+    font-size: large;
+}
+
+.book-your-table .separator {
+    display: flex;
+}
+
+.book-your-table .separator input {
+    flex: 2;
+}
