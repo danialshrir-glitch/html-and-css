@@ -68,7 +68,7 @@ img {
     margin-right: 30px;
 }
 
-nav ul {
+.navigation-bar nav ul {
     list-style-type: none;
     display: flex;
     align-items: flex-end;
@@ -77,7 +77,7 @@ nav ul {
     width: 100%;
 }
 
-nav li {
+.navigation-bar nav li {
     display: flex;
     flex: 1;
     justify-content: center;
@@ -87,16 +87,16 @@ nav li {
     letter-spacing: 0.1rem;
 }
 
-nav li a:link {
+.navigation-bar nav li a:link {
     color: #241200;
     text-decoration: none;
 }
 
-nav li a:visited {
+.navigation-bar nav li a:visited {
     color: red;
 }
 
-nav li a:hover {
+.navigation-bar nav li a:hover {
     color: blue;
 }
 
@@ -427,12 +427,22 @@ nav li a:hover {
 }
 
 .book-your-table {
-    background-image: url("../images/background-form.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
     object-fit: cover;
     text-align: center;
+    justify-content: center;
     margin-bottom: 20px;
+}
+
+.book-your-table img .stretch {
+    position: relative;
+    z-index: -1;
+}
+
+.book-your-table .booking-text {
+    position: absolute;
+    top: 25%;
+    left: 35%
 }
 
 .book-your-table h2 {
@@ -440,7 +450,6 @@ nav li a:hover {
     font-weight: bold;
     letter-spacing: 0.1rem;
 }
-
 .book-your-table h2::first-line {
     font-family: "Roboto Condensed";
     font-size: large;
@@ -448,8 +457,51 @@ nav li a:hover {
 
 .book-your-table .separator {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .book-your-table .separator input {
-    flex: 2;
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.book-your-table .separator button {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    font-family: "Alfa Slab One";
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border: transparent;
+    border-radius: 2px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.book-your-table .separator button:link {
+    background-color: red;
+}
+
+.book-your-table .separator button:visited {
+    background-color: red;
+}
+
+.book-your-table .separator button:hover {
+    background-color: gray;
+}
+
+.book-your-table .separator button:focus {
+    background-color: blue;
 }

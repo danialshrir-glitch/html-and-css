@@ -157,14 +157,11 @@
                         <li data-accName="Event 2">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod temor incididunt ut labore et dolore magna aliqua. Quis
-                            ipsum suspendisse ultrices gravida. Risus commodo vivera
-                            maecenas accumsan lacus vel facilisis.
+                            ipsum suspendisse ultrices gravida.
                         </li>
                         <li data-accName="Event 3">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod temor incididunt ut labore et dolore magna aliqua. Quis
-                            ipsum suspendisse ultrices gravida. Risus commodo vivera
-                            maecenas accumsan lacus vel facilisis.
+                            eiusmod temor incididunt ut labore et dolore magna aliqua.
                         </li>
                     </ul>
                 </div>
@@ -178,25 +175,34 @@
             </div>
 
             <div class="book-your-table">
-                <h2>
-                    RESERVATION
-                    <br />
-                    BOOK YOUR TABLE
-                </h2>
-                <form action="./submit_page" method="get">
-                    <div class="separator">
+                <img
+                    src="images/background-form.png"
+                    alt="A background image showing a burger on the top left corner, a sauce under it and a plate of 
+                    burger and chips on the right center corner."
+                    class="stretch" />
+                <div class="booking-text">
+                    <h2>
+                        RESERVATION
+                        <br />
+                        BOOK YOUR TABLE
+                    </h2>
+                    <form action="./submit_page" method="get">
+                        <div class="separator">
                             <input type="text" name="name" placeholder="NAME" />
                             <input type="email" name="email" placeholder="EMAIL" />
-                    </div>
-                    <div class="separator">
-                        <input type="date" name="date" placeholder="DATE" />
-                        <input type="time" name="time" placeholder="TIME" />
-                    </div>
-                    <div class="separator">
-                        <input type="number" name="people" placeholder="PEOPLE" />
-                        <button>FIND A TABLE</button>
-                    </div>
-                </form>
+                        </div>
+                        <div class="separator">
+                            <input type="text" name="date" placeholder="DATE (YYYY-MM-DD)"
+                                pattern="\d{4}-\d{2}-\d{2}" required />
+                            <input type="text" name="time" placeholder="TIME (HH:MM)" 
+                                pattern="\d{2}:\d{2}" />
+                        </div>
+                        <div class="separator">
+                            <input type="number" name="people" placeholder="PEOPLE" />
+                            <button>FIND A TABLE</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </main>
 
@@ -217,12 +223,14 @@
             </h3>
             <footer class="copyright-and-social">
                 <p>&copy; COMPANY NAME 2020. ALL RIGHTS RESERVED</p>
-                <ul>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Whatsapp</a></li>
-                </ul>
+                <nav>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Whatsapp</a></li>
+                    </ul>
+                </nav>
             </footer>
         </footer>
     </body>
