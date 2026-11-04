@@ -505,3 +505,54 @@ img {
 .book-your-table .separator button:focus {
     background-color: blue;
 }
+
+footer {
+    position: relative;
+    object-fit: cover;
+    justify-content: space-between;
+    color: white;
+}
+
+footer img {
+    position: relative;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+footer .footer-text {
+    padding: 90px;
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.footer-text .separator {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.footer-text .separator .details-section {
+    display: flexbox;
+    justify-content: space-between;
+    padding: 90px;
+    float: left;
+}
+
+.footer-text .separator .contact-details {
+    float: right;
+    margin-left: 300px;
+    padding: 90px;
+}
+
+.footer-text .copyright-and-social {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.social nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+}
