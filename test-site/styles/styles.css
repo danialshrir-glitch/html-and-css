@@ -1,0 +1,10 @@
+body {
+    font-family: sans-serif;
+}
+
+.box {
+    border: 5px solid darkblue;
+    height: 20vh;
+    width: 20vw;
+    font-size: 10vh;
+}

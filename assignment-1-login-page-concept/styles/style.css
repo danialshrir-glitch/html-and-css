@@ -1,0 +1,101 @@
+body {
+    min-height: 100vh;
+    font-family: "Trebuchet MS", sans-serif;
+    background-image: url("../images/forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box {
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px 1px black;
+    border: 2px solid red;
+    border-radius: 50px 50px;
+    color: white;
+    text-align: center;
+    background-color: white;
+    align-content: flex-start;
+    min-height: 100vh;
+    width: 40%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.header-text {
+    background-image: url("../images/forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20%;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: darkslateblue;
+    border: 5px solid darkslateblue;
+    border-radius: 2em;
+    padding: 2em;
+    color: white;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: white;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+    background-color: white;
+    color: black;
+}
+
+input[type="text"]:hover::placeholder,
+input[type="password"]:hover::placeholder {
+    color: black;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: white;
+    color: black;
+}
+
+input[type="text"]:focus::placeholder,
+input[type="password"]:focus::placeholder {
+    color: black;
+}
+
+.forgot-password-button a:link {
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+.forgot-password-button a:visited {
+    color: red;
+}
+
+.forgot-password-button a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+
+.login-button a {
+    border: 2px solid darkslateblue;
+    background-color: darkslateblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 2em;
+    padding: 10px;
+}
+
+.login-button a:visited {
+    color: red;
+}
+
+.login-button a:hover {
+    background-color: white;
+    color: darkslateblue;
+    text-decoration: none;
+}
